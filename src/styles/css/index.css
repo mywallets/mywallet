@@ -1,0 +1,46 @@
+body {
+  background-image: radial-gradient(#cbd0d1 12%, transparent 12%), radial-gradient(#cbd0d1 12%, transparent 12%);
+  background-color: whitesmoke;
+  background-position: 0 0, 0 0;
+  background-size: 7px 7px;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: bottom;
+  align-items: bottom;
+  align-content: bottom;
+  width: 30%;
+  position: relative;
+}
+
+.myimg {
+  position: absolute;
+  width: 100%;
+}
+
+.flag_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  align-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.flag_container div {
+  position: relative;
+  width: 300px;
+  display: flex;
+  flex-flow: column;
+  margin: 20px;
+  align-items: center;
+  border: 1px double;
+  border-image-slice: 1;
+  border-width: 4px;
+  border-image-source: linear-gradient(to left, #00C853, #ff596f);
+  border-top: none;
+}
+
+/*# sourceMappingURL=index.css.map */
