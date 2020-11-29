@@ -1,21 +1,19 @@
 import "./App.css";
-import myStyle from "./styles";
-import logo from "./imgs/eth.png";
+import Flags from "./components/common/Flags";
+import Wallet_Navigation from "./components/navigation/WNavgation";
+import Wallet_Router from './components/routing/'; 
+
 
 function App() {
-  const classes = myStyle();
 
-  return (
-    <div className={classes.body}>
-      <br />
-
-      <div className={classes.div1}>
-        Hello everyone div1
-      </div>
-      <div className={classes.div2}>hello everyone div2 </div>
+  return <>
     
-    </div>
-  );
+    <Wallet_Navigation/>
+    <Flags/>
+    <Wallet_Router />
+  
+  </>
+
 }
 
 export default App;
