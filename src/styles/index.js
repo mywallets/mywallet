@@ -8,23 +8,13 @@ const myStyle = makeStyles({
         fontWeight :'300' , 
         lineHeight:'1'
     }, 
-    //width = width + padding  + border 
-    // height = height + padding  + border 
-    div1: {
-        width : '300px',
-        height : '100px',
-        border : '1px solid blue ', 
-        boxSizing:'border-box',
-        padding : '50px'
-
-     },
-    div2 : {
-        width : '300px' , 
-        height : '100px' ,
-        padding : '50px', 
-        border : '1px solid red',
-        boxSizing:'border-box' 
+    img :{
+        position : 'absolute',
+        width:'200px',
+        height:'200px',
+        
     }
+    
 
 
 })
