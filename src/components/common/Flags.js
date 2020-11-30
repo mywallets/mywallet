@@ -10,7 +10,7 @@ return <>
     
     <div className="border-gradient border-gradient-green"> 
         <img src={usaflag} alt="usa flag"/>
-        <p>19000$</p>
+        <p className="price_color">19000$</p>
 
     </div>
 
