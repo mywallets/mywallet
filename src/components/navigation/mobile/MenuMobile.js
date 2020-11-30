@@ -7,7 +7,6 @@ import WalletIcon from "@material-ui/icons/AccountBalanceWallet";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import AddIcon from "@material-ui/icons/Add";
 import WMenuItem from "./menu/WMeuItem";
-import { Tooltip } from "@material-ui/core";
 
 export default function MenuMobile(props) {
   const mobileMenuId = "primary-search-account-menu-mobile";
@@ -30,7 +29,7 @@ export default function MenuMobile(props) {
             aria-haspopup="true"
             color="inherit"
           >
-            <WalletIcon />
+            <WalletIcon color="#D1D5DB"/>
           </IconButton>
           <p>Wallets</p>
         </MenuItem>
