@@ -42,5 +42,13 @@ body {
   border-image-source: linear-gradient(to left, #00C853, #ff596f);
   border-top: none;
 }
+.flag_container div img {
+  display: grid;
+  place-items: center;
+}
+
+.price_color {
+  color: #D1D5DB;
+}
 
 /*# sourceMappingURL=index.css.map */
